@@ -9,3 +9,7 @@ Inspired by the aforementioned blog post and code, I decided to take what he had
 # Learning as I go
 
 The idea behind this is to just see how far I can get
+
+## The Chuck Testa Guide
+
+https://www.youtube.com/watch?v=LJP1DphOWPs
