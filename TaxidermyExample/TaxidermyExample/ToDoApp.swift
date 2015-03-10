@@ -59,12 +59,12 @@ class ListItem: Component {
     
     func render() -> SimpleView {
         
-        let addItemHandler = EventHandlerWrapper(target: self, handler: ListItem.deleteItem)
+        let deleteItemHandler = EventHandlerWrapper(target: self, handler: ListItem.deleteItem)
         
         return SimpleView.View(frame,
             [
                 SimpleView.Text(CGRect(x: 0, y: 0, width: 100, height: 50), item),
-                SimpleView.Button(CGRect(x: 50, y: 0, width: 100, height: 50), "x", addItemHandler)
+                SimpleView.Button(CGRect(x: 50, y: 0, width: 100, height: 50), "x", deleteItemHandler)
             ])
     }
 }
