@@ -81,10 +81,6 @@ class ListItems: Component {
         self.deleteAction = deleteAction
     }
     
-    func voi() {
-        println("deleted")
-    }
-    
     func render() -> ReactView {
         var children = [Component]()
         var offset: CGFloat = 0.0
