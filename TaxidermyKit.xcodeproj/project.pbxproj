@@ -11,7 +11,7 @@
 		DDC5D6751AAED17D00C35659 /* TaxidermyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC5D6691AAED17D00C35659 /* TaxidermyKit.framework */; };
 		DDC5D67C1AAED17D00C35659 /* TaxidermyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC5D67B1AAED17D00C35659 /* TaxidermyKitTests.swift */; };
 		DDC5D6861AAED20000C35659 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC5D6851AAED20000C35659 /* Component.swift */; };
-		DDC5D6881AAED2A400C35659 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC5D6871AAED2A400C35659 /* View.swift */; };
+		DDC5D6881AAED2A400C35659 /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC5D6871AAED2A400C35659 /* SimpleView.swift */; };
 		DDC5D68A1AAED2B000C35659 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC5D6891AAED2B000C35659 /* Renderer.swift */; };
 		DDC5D68C1AAED51A00C35659 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC5D68B1AAED51A00C35659 /* Event.swift */; };
 		DDC5D6901AAED66300C35659 /* UIButton+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC5D68F1AAED66300C35659 /* UIButton+Events.swift */; };
@@ -36,7 +36,7 @@
 		DDC5D67A1AAED17D00C35659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC5D67B1AAED17D00C35659 /* TaxidermyKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxidermyKitTests.swift; sourceTree = "<group>"; };
 		DDC5D6851AAED20000C35659 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
-		DDC5D6871AAED2A400C35659 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		DDC5D6871AAED2A400C35659 /* SimpleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
 		DDC5D6891AAED2B000C35659 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 		DDC5D68B1AAED51A00C35659 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		DDC5D68F1AAED66300C35659 /* UIButton+Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Events.swift"; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				DDC5D6851AAED20000C35659 /* Component.swift */,
-				DDC5D6871AAED2A400C35659 /* View.swift */,
+				DDC5D6871AAED2A400C35659 /* SimpleView.swift */,
 				DDC5D6891AAED2B000C35659 /* Renderer.swift */,
 				DDC5D68B1AAED51A00C35659 /* Event.swift */,
 				DDC5D6911AAED6A100C35659 /* App.swift */,
@@ -244,7 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC5D68C1AAED51A00C35659 /* Event.swift in Sources */,
-				DDC5D6881AAED2A400C35659 /* View.swift in Sources */,
+				DDC5D6881AAED2A400C35659 /* SimpleView.swift in Sources */,
 				DDC5D68A1AAED2B000C35659 /* Renderer.swift in Sources */,
 				DDC5D6921AAED6A100C35659 /* App.swift in Sources */,
 				DDC5D6901AAED66300C35659 /* UIButton+Events.swift in Sources */,

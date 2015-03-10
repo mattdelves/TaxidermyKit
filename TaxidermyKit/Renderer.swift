@@ -15,7 +15,7 @@ public class Renderer {
     
     // we need to retain the most recent view, so that any event handlers
     // are retained
-    var reactView: ReactView!
+    var reactView: SimpleView!
     
     public init(hostView: UIView, app: Component) {
         self.hostView = hostView
@@ -34,7 +34,7 @@ public class Renderer {
     }
 }
 
-public func createView(virtualView: ReactView) -> UIView {
+public func createView(virtualView: SimpleView) -> UIView {
     var components = [Component]()
     
     switch virtualView {
