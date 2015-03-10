@@ -7,4 +7,10 @@
    <FileRef
       location = "group:TaxidermyExample/TaxidermyExample.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Quick/Quick.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Nimble/Nimble.xcodeproj">
+   </FileRef>
 </Workspace>
