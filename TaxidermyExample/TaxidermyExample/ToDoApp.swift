@@ -16,7 +16,6 @@ class ToDoApp: Component {
     
     func textChanged(value: String) {
         newItem = value
-        AppRenderer.render()
     }
     
     func itemDeleted(index: Int) {
@@ -36,7 +35,7 @@ class ToDoApp: Component {
         
         return ReactView.View(CGRect(x: 0, y: 0, width: 300, height: 500),
             [
-                ReactView.TextField(CGRect(x: 0, y: 0, width: 200, height: 50), "", textChangedHandler),
+                ReactView.TextField(CGRect(x: 0, y: 0, width: 200, height: 50), "Type item here", textChangedHandler),
                 ReactView.Button(CGRect(x: 200, y: 0, width: 100, height: 50), "Add", addItemHandler),
                 ListItems(frame: CGRect(x: 0, y: 100, width: 300, height: 500), items: items, deleteAction: itemDeleted)
             ])
