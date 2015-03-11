@@ -1,3 +1,5 @@
+[![Build status](https://badge.buildkite.com/304e017f4d585259c77d186f7de95c8fba837c264e1561a3e0.svg)](https://buildkite.com/mattdelves/taxidermykit)
+
 # Credit where it is due
 
 This framework was inspired by the blog post http://blog.scottlogic.com/2015/03/05/reactjs-in-swift.html by Colin Eberhardt and his corresponding GitHub code https://github.com/ColinEberhardt/ReactSwift.
