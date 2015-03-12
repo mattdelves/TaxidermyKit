@@ -26,4 +26,6 @@ git checkout -qf "$BUILDBOX_COMMIT"
 git submodule init
 git submodule update
 
+mkdir logs/
+
 set -o pipefail && xcrun xcodebuild -workspace TaxidermyKit.xcworkspace -scheme TaxidermyKit  -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.2' clean build test | tee -a logs/unit_test.log | xcpretty -c
